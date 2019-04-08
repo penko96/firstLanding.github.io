@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-image: url("images/Layer-759_02.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 735px;
+}
+
+nav {
+    background: rgba(186, 146, 94, 0.9);
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    top: 20px;
+}
+
+nav ul li {
+    padding: 15px 0 15px 0;
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 5px 25px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+
+header p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    width: 28%;
+    margin: auto;
+}
+
+button {
+    background-color: #080820;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 40px;
+
+}
+
+button i {
+    color: #b77f4b;
+    padding-left: 5px;
+}
+
+h2 {
+    padding-bottom: 50px;
+}
+
+#industries {
+    padding: 50px 50px 0 50px;
+    text-align: center;
+}
+
+
+div#first-row article, div#second-row article {
+    width: 30%;
+    display: inline-block;
+    text-align: left;
+    margin: 15px 15px;
+}
+
+article i {
+    float: left;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    margin-bottom: 58px;
+    margin-right: 20px;
+    padding: 15px;
+}
+
+#to-help-section {
+    background-image: url("images/steel-bg.jpg");
+    background-size: cover;
+    color: #bc9f73;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 30px 0;
+    text-align: center;
+}
+
+#to-help-section p {
+    color: #000;
+    font-size: 18px;
+}
+
+
+#why-choose-us {
+    background-image: url("images/background-choose-us.jpg");
+    color: white;
+    height: 400px;
+    text-align: center;
+
+}
+
+#why-choose-us h1 {
+    text-align: center;
+    font-size: 30px;
+    padding: 60px 0 20px 0;
+    margin-bottom: 2%;
+}
+
+#why-choose-us > articles:nth-child(2), articles:nth-child(3), articles:nth-child(4) {
+    display: inline-block;
+    width: 30%;
+    box-sizing: border-box;
+    height: 210px;
+    border: 2px solid #bc9f73;
+    vertical-align: top;
+}
+
+#why-choose-us h3 {
+    text-align: center;
+    font-size: 22px;
+    padding: 40px 0;
+}
+
+#why-choose-us p {
+    text-align: left;
+    padding-left: 50px;
+    padding-bottom: 40px;
+}
+
+#why-choose-us > articles:nth-child(3) > p {
+    padding-bottom: 59px;
+}
+
+#smileyWoman img {
+    height: 500px;
+}
+
+#smileyWoman  p.info {
+background: rgba(255, 255, 255, 0.9);
+    width: 30%;
+    position: relative;
+    top: -440px;
+    left: 870px;
+    padding: 60px;
+    padding-bottom: 280px;
+}
+
+#smileyWoman p.author{
+    background: rgba(0, 0, 0, 1);
+    width: 23%;
+    position: relative;
+    top: -700px;
+    left: 937px;
+    padding: 40px 40px 140px 40px;
+    color: white;
+}
+
+#smileyWoman span{
+    position: relative;
+    top: -890px;
+    left: 1152px;
+    font-size: 12px;
+    color: gray;
+}
